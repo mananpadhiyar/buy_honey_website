@@ -1,0 +1,63 @@
+
+
+scroll-behavior: smooth;
+=> when click on anchor tag it will match the id to the element id then it will redirect 
+to special part of page but scroll-behavior will be smooth
+
+
+scroll-padding-top: 3rem;
+=> when we scroll it will ad padding to the 
+
+:root 
+is a CSS pseudo-class selector used to select the element that represents the root of the 
+document
+
+
+z-index
+The z-index property specifies the stack order of an element. An element with greater stack 
+order is always in front of an element with a lower stack order.
+
+z-index defines which positioned element appears on top (Sort of like layers).
+
+So z-index: 1000 would appear on top of a z-index 999.
+
+Doing z-index: 1001 is an an attempt to appear "on top" of a item with z-index: 1000
+
+
+transitions:
+CSS transitions allows you to change property values smoothly, over a given duration. 
+
+vertical-align: middle;
+The vertical-align property sets the vertical alignment of an element.
+
+grid-template-columns: repeat(2, 1fr);
+Use the grid-template-columns property to define the number of columns in the grid layout.
+
+
+height: auto; 
+the element will automatically adjust its height to allow its content to be displayed correctly.
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+this line is game changed when we need auto fit card to the screen
+
+
+  padding: 30px 14% 70px;
+
+this also game changing whenever we use this one top:30px , left-right:14% , bottom: 70px
+left-right:14% => when we decrease size of screen it will auto adjust 
+
+
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+
+  whenever you image use style for that 
+ 
+ display: grid
+  grid-template-columns: repeat(2, 1fr);
+
+=> whenever you want to show in 2 division first img second divison text , btn whaever you this
+
+  gap: 4rem;
+
+=> always gap , dont margin gap will  automatically adjust gap as per screen 
